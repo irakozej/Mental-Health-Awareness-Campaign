@@ -1,7 +1,7 @@
 /* styles.css */
 
 header {
-  background-color: #333;
+  background-color: ;
   color: white;
   padding: 20px;
 }
@@ -18,7 +18,9 @@ header {
   align-items: center;
   margin-top: 10px;
 }
-
+body {
+  background-color: blue;
+}
 .nav-links li {
   margin-right: 15px;
 }
@@ -36,7 +38,7 @@ header {
 /* styles.css */
 
 header {
-  background-color: #333;
+  background-color: ;
   color: white;
   padding: 20px;
 }
@@ -49,7 +51,6 @@ header {
 .nav-links {
   list-style: none;
   display: flex;
-  background-color: blue;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
@@ -58,14 +59,95 @@ header {
 .nav-links li {
   margin-right: 15px;
 }
-
 .nav-links a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  border-radius: 5px;
 }
 
 /* Style the navigation links on hover */
 .nav-links a:hover {
-  color: lightgray;
+  background-color: white;
+  color: blue;
+}
+.first-section {
+  display: flex;
+  padding-top: 30px;
+}
+.first-section img {
+  padding-left: 200px;
+  width: 380px;
+  height: 350px;
+}
+.first-section button:hover {
+  background-color: #065081;
+  color: white;
+}
+.first-section button {
+  display: flex;
+  font-size: x-large;
+  justify-content: space-between;
+  letter-spacing: 0.3mm;
+  border-radius: 10px;
+}
+
+.second-section {
+  display: flex;
+  padding-top: 3cm;
+}
+.second-section p {
+  font-size: larger;
+}
+.second-section img {
+  padding-left: 200px;
+  width: 45%;
+  height: 45%;
+}
+.third-section {
+  padding-top: 4cm;
+  font-size: larger;
+}
+.third-section button {
+  border-radius: 20px;
+}
+.third-section button:hover {
+  color: white;
+  background-color: #065081;
+}
+.fourth-section {
+  padding-top: 4cm;
+  display: flex;
+  padding-top: 200px;
+  padding-bottom: 3cm;
+  justify-content: space-between;
+}
+.fourth-section img {
+  width: 380px;
+  height: 350px;
+}
+.fourth-section button {
+  border-radius: 20px;
+}
+.fourth-section h4 {
+  border-radius: 10px;
+  font-size: larger;
+  background-color: blueviolet;
+  height: fit-content;
+  width: 2.5cm;
+}
+
+.footer {
+  margin-right: none;
+  margin-top: 2cm;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  color: white;
+  background-color: #065081;
+}
+.footer a {
+  color: white;
 }
