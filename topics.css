@@ -1,10 +1,11 @@
 /* styles.css */
 
 body {
+  display: none;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f6f8fa;
+  background-color: rgb(10, 10, 44);
   color: #333;
 }
 

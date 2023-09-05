@@ -1,0 +1,47 @@
+/* ... (previous styles) ... */
+
+/* Styling for the Therapists section */
+.therapists-section {
+  background-color: #132835; /* Dark blue background */
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.therapists-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the Help-Seekers section */
+.help-seekers-section {
+  background-color: #132835; /* Dark blue background */
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.help-seekers-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the Testimonials section */
+.testimonials-section {
+  background-color: #0a0a2c; /* Darker blue background */
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.testimonials-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+/* ... (previous styles) ... */

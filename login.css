@@ -3,12 +3,12 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #0366d6;
+  background-color: rgb(10, 10, 44);
   margin: 0;
 }
 
 .login-container {
-  background-color: #065081;
+  background-color: #5382a1;
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -45,8 +45,8 @@ button {
   transition: background-color 0.3s ease;
 }
 button:hover {
-  background-color:#4d4a21;
-  color: black;
+  background-color: #4d4a21;
+  color: white;
 }
 a {
   color: white;

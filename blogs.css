@@ -1,0 +1,88 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(10, 10, 34);
+}
+
+.nav-links:hover {
+  color: rgb(10, 10, 34);
+  padding: 20px;
+}
+header:hover {
+  background-color: white color rgb(10, 10, 34);
+}
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+  justify-content:right}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.blog-post {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.blog-post img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  font-size: 16px;
+}
+
+footer {
+  background-color: #132835;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-links {
+  list-style: none;
+}
+
+.footer-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+}
